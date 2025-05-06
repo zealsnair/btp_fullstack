@@ -1,0 +1,125 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.env
+*.env
+*.venv/
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# === Node.js / Frontend ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.cache/
+
+# === IDEs & Editors ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS/System Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+$RECYCLE.BIN/
+*.swp
+*.lock
+
+# === Logs & Output ===
+*.log
+*.out
+*.bak
+*.tmp
+*.old
+
+# === Databases ===
+*.sqlite3
+*.db
+*.sql
+
+# === Docker / Vagrant / Environment ===
+*.pid
+docker-compose.override.yml
+.vagrant/
+
+# === Git ===
+.git/
+*.orig
+
+# === Environment / Secrets ===
+.env
+.env.*
+.secret
+*.key
+*.pem
+*.crt
+
+# === Test / Coverage Tools ===
+coverage/
+htmlcov/
+.pytest_cache/
+
+# === Compiled Files ===
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.class
+*.jar
+*.war
+*.pyc
+*.pyo
+*.pyd
+
+# === Misc ===
+*.tgz
+*.tar.gz
+*.zip
+*.7z
+*.rar
+*.bak
+*.tmp
+*.log
+*.csv
+*.tsv
+
+# === JetBrains (IntelliJ, PyCharm) ===
+.idea/
+*.iml
+
+# === Mac Finder ===
+.Spotlight-V100
+.Trashes

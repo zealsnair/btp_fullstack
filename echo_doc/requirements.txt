@@ -1,0 +1,7 @@
+streamlit
+pinecone
+langchain-community
+langchain-text-splitters
+python-dotenv
+cohere
+pdfplumber
