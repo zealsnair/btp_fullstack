@@ -39,7 +39,7 @@ def get_embeddings(texts):
        response = co.embed(
            model="embed-multilingual-v3.0",  # or your preferred model
            texts=texts,
-        #    input_type="text"  # Ensure this is set correctly based on the model's requirements
+           input_type="search_document"  # Ensure this is set correctly based on the model's requirements
        )
        return response.embeddings
 
@@ -55,6 +55,8 @@ def split_text(documents):
 
 # --- Indexing ---
 def index_docs(documents):
+    index.delete(delete_all=True, namespace="pdf-namespace")
+
     texts = [doc.page_content for doc in documents]
     embeddings = get_embeddings(texts)
     vectors = []

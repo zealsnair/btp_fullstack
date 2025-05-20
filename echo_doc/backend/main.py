@@ -19,7 +19,6 @@ async def upload_pdf(file: UploadFile = File(...)):
     file_path = os.path.join("uploaded_pdfs", file.filename)
     with open(file_path, "wb") as f:
         f.write(await file.read())
-
     documents = load_pdf(file_path)
     if not documents:
         return {"success": False, "error": "Failed to extract text"}
